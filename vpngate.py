@@ -47,7 +47,7 @@ REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 SCHEMA_VERSION = 1
 
 # VPN Gate 没有 HTTPS 接口，官方 API 只提供 HTTP。
-DEFAULT_VPNGATE_API = "https://cf.090227.xyz/cu&port=443"
+DEFAULT_VPNGATE_API = ""
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
@@ -58,9 +58,9 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS = [
-    "saas.sin.fan:443",
-    "www.mfyx.cn:443",
-    "cf.nyanya.moe:443",
+    "eii.at:443",
+    "skk.moe:2087",
+    "js.org:443",
     "cf.877774.xyz:443",
     "cdn.204910.best:443",
     "cdn.ctn32.us.kg:443",
